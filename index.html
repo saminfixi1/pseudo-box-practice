@@ -6,9 +6,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .swimming div {
+            border: 1px dashed gold;
+            width: 200px;
+        }
+
+        #boy {
+            position: relative;
+            top: 75px;
+            z-index: 100;
+        }
+
+
+        #ring {
+            position: sticky;
+            /* left: 30px; */
+            top: 75px;
+            z-index: 1;
+        }
+
+        #water {
+            position: fixed;
+            /* top: -85px; */
+        }
+
+        .dummy {
+            height: 150px;
+            width: 250px;
+            background-color: pink;
+        }
+    </style>
 </head>
 
 <body>
+    <section>
+        <h1>This is the first one</h1>
+        <h1>This is the second one</h1>
+        <h1>This is the last one</h1>
+    </section>
+    <section class="swimming">
+        <div id="boy"><img src="images/boy.svg" alt=""></div>
+        <div id="ring"><img src="images/ring.svg" alt=""></div>
+        <div id="water"><img src="images/water.svg" alt=""></div>
+        <div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+        </div>
+    </section>
+    <section>
+        <h1>This is separate</h1>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
 
 </body>
 
